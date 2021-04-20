@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".grossSalary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Gross Salary"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Regular Working Hrs:-"
+        android:textSize="16sp"
+        android:id="@+id/ed1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Regular Pay per hr"
+        android:textSize="16sp"
+        android:id="@+id/ed2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Overtime in hrs:-"
+        android:textSize="16sp"
+        android:id="@+id/ed3"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Overtime pay / hr:-"
+        android:textSize="16sp"
+        android:id="@+id/ed4"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No of days / month for overtime:- "
+        android:textSize="16sp"
+        android:id="@+id/ed5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Total Salary"
+        android:textSize="20sp"
+        android:onClick="total_salary"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textSize="20sp"
+        android:onClick="Clear"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer"
+        android:textSize="16sp"
+        android:id="@+id/tv1"
+        />
+
+
+
+</LinearLayout>

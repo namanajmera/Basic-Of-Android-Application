@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClassAssignment1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Piggy Bank"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the no of Rs 2 coin"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:id="@+id/num1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the no of Rs 5 coins"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:id="@+id/num2"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the no of Rs 10 coins"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:id="@+id/num3"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Total"
+        android:textSize="16sp"
+        android:onClick="Total"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/result"
+        android:hint="Result will Show here"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GST Calculator"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:onClick="GST_Calculator"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GST Calculator"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cost Price of Product:- "
+        android:textSize="16sp"
+        android:inputType="number"
+        android:id="@+id/product1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tax Imposed by State is 9%."
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tax Imposed by centre is 9%."
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Total Price"
+        android:textSize="16sp"
+        android:onClick="Show_tax_result"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear All"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:onClick="Clear"
+        />
+</LinearLayout>
